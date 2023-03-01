@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Jujamaica</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="#"><img src="/img/marijuana.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">TEAM</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> Welcome to Jujamaica Ganja<i class="fas fa-smile-wink"></i></h1>
+            <p>We are the cheapest cannabis dispensary based in Juja!</br>Operation Hours : 10am - 10pm Daily / 7 Days
+			</br>We provide delivery to Jujamaica Stoners in a safe and discreet manner.</p>
+            <a href="" class="hero-btn">Scroll down to learn more!</a> 
+        </div>
+
+    </section>
+
+<!-- Section 2 -->
+<section class="sectionTwo">
+
+    <h1>In Stock Now!</h1>
+    <div class="row">
+        <div class="sectionCol">
+            <h3>Fresh Bud Flowers!</h3>
+            <p>Currently we have a huge batch of fresh OG Kush!</br>
+			<p>
+			        <li>2g: Kshs.50</li>
+                    <li>5g : Kshs.100</li>
+                    <li>10g : Kshs.200</li>
+                    <li>20g: Kshs.400</li>
+		
+			</p>
+        </div>
+        <div class="sectionCol">
+            <h3>Pre-rolled joints!</h3>
+			<p>We got you covered with professionally rolled joints!</br>
+            <p>
+					<li>1x King Sized Joint (1g): Kshs.100</li>
+                    <li>3x King Sized Joint (1g): Kshs.100</li>
+                    <li>5x King Sized Joint (1g): Kshs.250</li>
+                    <li>10x King Sized Joint (1g):Kshs.300</li> </p>
+        </div>
+        <div class="sectionCol">
+            <h3>Wax!</h3>
+			<p>Pure THC wax oil that brings you to high heaven! </br>
+            <p>
+					<li>1g: Kshs.70</li>
+                    <li>3g: Kshs.200</li>
+                    <li>5g: Kshs.350</li>
+                    <li>10g: kshs.690</li></p>
+        </div>
+		
+    </div>
+	    <img class="img-fluid" src="img/ogkush.png">
+	    <img class="img-fluid" src="img/joints.jpg">
+		<img class="img-fluid" src="img/wax.png">
+</section>
+
+<!------ Section 3 ----->
+
+<section class="sectionThree">
+    <h1>How to Order?</h1>
+
+    <div class="row">
+        <div class="sectionCol">
+            <h3>Step 1: Choose your product!
+                    <li>Items & Weight: </li>
+                    <li>Name: </li>
+                    <li>Phone No: </li>
+                    <li>Address for Postage:</li>
+</h3>
+        </div>
+        <div class="sectionCol">
+            <h3>Step 2: Make Payment through Bitcoin Wallet!</h3>
+            <p>Send exact amount to this bitcoin address: <b>0xC4f907f24b51798e2b13E351753A79b771afb5c5</b>
+			</p>
+        </div>
+        <div class="sectionCol">
+            <h3>Step 3: Send Payment details to email!</h3>
+            <p>Send transaction receipt and delivery address to jujamaica@gmail.com After receiving your email and receipt, we will proceed with delivery through Lalamove or Poslaju depending on your location.</p>
+        </div>
+    </div>
+</section>
+
+<!----- Footer ----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Juja safest and most trusted online dispensary! Keeping all Jujamaican stoners blazed has always been our mission. We are the budtender you looking for!
+</p>
+    <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Developed by Kwepo</p>
+	
+</section>
+
+
+
+
+
+<!-- ----JavaScript for Toggle Menu ----- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
